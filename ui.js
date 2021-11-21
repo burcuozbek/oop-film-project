@@ -42,3 +42,6 @@ UI.prototype.loadAllFilms = function (films) {
        </tr>`;
   });
 };
+UI.prototype.deleteFilmFromUI = function (element) {
+  element.parentElement.parentElement.remove();
+};
